@@ -9,7 +9,7 @@ export const dummyData = [
 	{
 		title: 'East Coast Oysters on the Half Shell',
 		description: `½ Dozen
-         • Piece Options:  • Filet +$16 •  • Chicken +$7 • Shrimp +$12 • Gulf Crab +$12 • Seared Tuna +$18 • 1 Pc. Oyster +$2 • 1 Pc Shrimp +$3 • 1 Pc. Tostada +$5.50 • 1 Pc. Quail +$5 • 1 Pc. Poached Egg +$6SPLIT Entree +$5`,
+         • Piece Options:  • Filet +$16 • Chicken +$7 • Shrimp +$12 • Gulf Crab +$12 • Seared Tuna +$18 • 1 Pc. Oyster +$2 • 1 Pc Shrimp +$3 • 1 Pc. Tostada +$5.50 • 1 Pc. Quail +$5 • 1 Pc. Poached Egg +$6SPLIT Entree +$5`,
 		imageSource: 'https://popmenucloud.com/cdn-cgi/image/width=3840,height=3840,fit=scale-down,format=auto,quality=60/zhacvfry/90b5a572-bd27-4673-8dde-b6415918c0fc.jpg',
 		price: 24,
 	},
