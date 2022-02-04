@@ -32,4 +32,4 @@ export const dummyData = [
 		imageSource: 'https://popmenucloud.com/cdn-cgi/image/width=3840,height=3840,fit=scale-down,format=auto,quality=60/zhacvfry/3f10e394-0d81-41e3-9af0-78bb54f003c7.jpg',
 		price: 72,
 	}
-];
+] as MenuItem[];
