@@ -1,15 +1,15 @@
-import React, { Dispatch, FormEvent, SetStateAction, useState } from 'react';
-import { MenuItem } from '../dummyData';
+import React, { Dispatch, FormEvent, SetStateAction, useState } from "react";
+import { MenuItem } from "../dummyData";
 
-interface MenuItemFormProps {
+interface MenuCardFormProps {
 	setMenuItems: Dispatch<SetStateAction<MenuItem[]>>;
 }
 
-export default function MenuItemForm({ setMenuItems }: MenuItemFormProps) {
-	const [title, setTitle] = useState('');
-	const [description, setDescription] = useState('');
-	const [price, setPrice] = useState('');
-	const [imageUrl, setImageUrl] = useState('');
+export default function MenuCardForm({ setMenuItems }: MenuCardFormProps) {
+	const [title, setTitle] = useState("");
+	const [description, setDescription] = useState("");
+	const [price, setPrice] = useState("");
+	const [imageUrl, setImageUrl] = useState("");
 
 	const onClickAdd = (event: FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
@@ -24,10 +24,10 @@ export default function MenuItemForm({ setMenuItems }: MenuItemFormProps) {
 	};
 
 	const resetForm = () => {
-		setTitle('');
-		setDescription('');
-		setPrice('');
-		setImageUrl('');
+		setTitle("");
+		setDescription("");
+		setPrice("");
+		setImageUrl("");
 	};
 
 	const onChangeTitle = (e: FormEvent<HTMLInputElement>) => {
