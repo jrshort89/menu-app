@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import App from "../../App";
-import MenuCardForm from "../MenuCardForm";
+import App from "../App";
+import MenuCardForm from "../components/MenuCardForm";
 
 test("Renders inputs", () => {
 	render(<MenuCardForm setMenuItems={() => {}} />);
