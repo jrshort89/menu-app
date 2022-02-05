@@ -14,7 +14,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1 className="text-5xl font-bold mb-6">Amazing Menu</h1>
+			<h1 className="text-5xl font-bold mb-6">Hello Menu</h1>
 			<MenuCardForm setMenuItems={setMenuItems} />
 			<div className="flex items-center flex-col">
 				{menuItems.map((d) => (

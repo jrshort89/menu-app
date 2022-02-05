@@ -3,7 +3,7 @@ import App from "../App";
 
 test("renders title", () => {
 	render(<App />);
-	const title = screen.getByText(/Amazing Menu/i);
+	const title = screen.getByText(/Hello Menu/i);
 	expect(title).toBeInTheDocument();
 });
 

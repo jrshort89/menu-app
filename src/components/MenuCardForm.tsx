@@ -57,7 +57,7 @@ export default function MenuCardForm({ setMenuItems }: MenuCardFormProps) {
 					onChange={onChangeTitle}
 					required
 					placeholder="Title"
-					className=" rounded-md mb-4"
+					className="rounded-md mb-4"
 					type="text"
 				/>
 				<input
@@ -65,7 +65,7 @@ export default function MenuCardForm({ setMenuItems }: MenuCardFormProps) {
 					onChange={onChangeDescription}
 					required
 					placeholder="Description"
-					className=" rounded-md mb-4"
+					className="rounded-md mb-4"
 					type="text"
 				/>
 				<input
@@ -74,14 +74,14 @@ export default function MenuCardForm({ setMenuItems }: MenuCardFormProps) {
 					type="number"
 					required
 					placeholder="Price"
-					className=" rounded-md mb-4"
+					className="rounded-md mb-4"
 				/>
 				<input
 					value={imageUrl}
 					onChange={onChangeImageUrl}
 					required
 					placeholder="Image URL"
-					className=" rounded-md mb-4"
+					className="rounded-md mb-4"
 					type="text"
 				/>
 				<button
