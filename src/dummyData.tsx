@@ -22,7 +22,7 @@ export const dummyData = [
          • Piece Options: • Filet +$16 • Chicken +$7 • Shrimp +$12 • Gulf Crab +$12 • Seared Tuna +$18 • 1 Pc. Oyster +$2 • 1 Pc Shrimp +$3 • 1 Pc. Tostada +$5.50 • 1 Pc. Quail +$5 • 1 Pc. Poached Egg +$6SPLIT Entree +$5`,
 		imageSource:
 			"https://popmenucloud.com/cdn-cgi/image/width=3840,height=3840,fit=scale-down,format=auto,quality=60/zhacvfry/012ac648-74e8-4c34-992d-cd7b9682dd4b.jpg",
-		price: 24,
+		price: 25,
 	},
 	{
 		title: "King Crab Louie",

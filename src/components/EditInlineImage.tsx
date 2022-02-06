@@ -33,6 +33,7 @@ export default function EditInlinImage({
 	return (
 		<>
 			<img
+				data-testid="Image"
 				onClick={() => setEditable((e) => !e)}
 				className="max-w-md w-auto"
 				src={editValue}
@@ -40,6 +41,7 @@ export default function EditInlinImage({
 			/>
 			{editable && (
 				<textarea
+					data-testid="Image Input"
 					onChange={(e: any) => setEditValue(e.target.value)}
 					className={classes + "z-10 absolute"}
 					value={editValue}

@@ -29,12 +29,15 @@ export default function MenuCard({
 				className="hover:border-4 mb-6 w-3/4 border-2 flex flex-col lg:flex-row items-center rounded-lg"
 			>
 				{showModal && <Modal onConfirm={confirmDeleteHandler} />}
-				{/* <img className="max-w-md w-auto" src={imageSource} alt={title} /> */}
 				<EditInlinImage value={imageSource} title={title} />
 				<div className="w-full mx-6 justify-center self-center">
-					<EditInlinText value={title} classes="w-full font-bold" />
+					<EditInlinText
+						testid="Title"
+						value={title}
+						classes="w-full font-bold"
+					/>
 					<br />
-					<EditInlinText textArea value={description} />
+					<EditInlinText testid="Description" textArea value={description} />
 					<br />
 					<div className="flex justify-between w-max">
 						<EditInlinText

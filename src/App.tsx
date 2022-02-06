@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./App.css";
 import MenuCard from "./components/MenuCard";
 import MenuCardForm from "./components/MenuCardForm";
-import Modal from "./components/Modal";
 import { dummyData } from "./dummyData";
 
 function App() {

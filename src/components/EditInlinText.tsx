@@ -5,6 +5,7 @@ interface EditInlineTextProps {
 	classes?: string;
 	numberInput?: boolean;
 	textArea?: boolean;
+	testid?: string;
 }
 
 export default function EditInlinText({
@@ -12,6 +13,7 @@ export default function EditInlinText({
 	classes,
 	numberInput,
 	textArea,
+	testid,
 }: EditInlineTextProps) {
 	const [editValue, setEditValue] = useState(value);
 	const [editable, setEditable] = useState(false);
@@ -35,6 +37,7 @@ export default function EditInlinText({
 			{editable ? (
 				!textArea ? (
 					<input
+						data-testid="Edit Input"
 						onChange={(e: any) => setEditValue(e.target.value)}
 						className={classes}
 						value={editValue}
@@ -45,6 +48,7 @@ export default function EditInlinText({
 					/>
 				) : (
 					<textarea
+						data-testid="Edit Input"
 						onChange={(e: any) => setEditValue(e.target.value)}
 						className={classes + " w-full h-full"}
 						value={editValue}
@@ -55,7 +59,11 @@ export default function EditInlinText({
 					/>
 				)
 			) : (
-				<div onClick={(e) => setEditable(true)} className={classes}>
+				<div
+					data-testid={testid}
+					onClick={(e) => setEditable(true)}
+					className={classes}
+				>
 					{numberInput && "$"}
 					{editValue}
 				</div>
